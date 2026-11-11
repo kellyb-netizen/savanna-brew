@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savanna Brew Café | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html"><img src="images/logo.png" alt="Savanna Brew Café logo" class="logo"></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <h1>Contact &amp; Reservations</h1>
+      <div class="contact-layout">
+
+        <div class="contact-form">
+          <h2>Book a Table</h2>
+          <form action="#" method="post">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of guests</label>
+            <select id="guests" name="guests">
+              <option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option>
+            </select>
+
+            <fieldset>
+              <legend>Occasion</legend>
+              <label for="casual"><input type="radio" id="casual" name="occasion" value="casual" checked> Casual</label>
+              <label for="birthday"><input type="radio" id="birthday" name="occasion" value="birthday"> Birthday</label>
+              <label for="business"><input type="radio" id="business" name="occasion" value="business"> Business</label>
+            </fieldset>
+
+            <label for="requests">Special requests</label>
+            <textarea id="requests" name="requests" rows="4"></textarea>
+
+            <button type="submit" class="btn">Reserve Table</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h2>Opening Hours</h2>
+          <table class="menu-table">
+            <thead>
+              <tr><th scope="col">Day</th><th scope="col">Hours</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Monday to Friday</th><td>7:00 AM to 9:00 PM</td></tr>
+              <tr><th scope="row">Saturday</th><td>8:00 AM to 10:00 PM</td></tr>
+              <tr><th scope="row">Sunday</th><td>9:00 AM to 6:00 PM</td></tr>
+            </tbody>
+          </table>
+
+          <h2>Find Us</h2>
+          <ul class="contact-list">
+            <li>Address: 14 Coffee Lane, Westlands, Nairobi</li>
+            <li>Phone: +254 700 123 456</li>
+            <li>Email: hello@savannabrew.example</li>
+            <li>Instagram @savannabrew, Facebook /savannabrewcafe</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div>
+        <p  class="footer-title">Find Us</p>
+        <p>14 Coffee Lane, Westlands, Nairobi</p>
+      </div>
+      <div>
+        <p  class="footer-title">Opening Hours</p>
+        <p>Mon–Fri: 7:00 AM – 9:00 PM<br>Sat: 8:00 AM – 10:00 PM<br>Sun: 9:00 AM – 6:00 PM</p>
+      </div>
+      <div>
+        <p  class="footer-title">Follow Us</p>
+        <p><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram @savannabrew</a></p>
+        <p><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook /savannabrewcafe</a></p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Savanna Brew Café. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
